@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="accent_material_light">#ff0090</color>
+    <color name="white">#fafafa</color>
+
+    <color name="event_color_01">#59dbe0</color>
+    <color name="event_color_02">#f57f68</color>
+    <color name="event_color_03">#87d288</color>
+    <color name="event_color_04">#f8b552</color>
+    <color name="toolbar">#efefef</color>
+    <color name="toolbar_text">#8f000000</color>
+    <color name="accent">#2789e4</color>
+    <color name="mainuea">#ff0088</color>
+    <color name="primary_material_light_1">#f90101</color>
+    <color name="primary_material_light_2">#ff0090</color>
+    <color name="primary_dark_material_light">#000000</color>
+    <color name="background_material_light">#ffffff</color>
+    <color name="primary_text_default_material_light">#deffffff</color>
+    <color name="primary_material_light">#000000</color>
+    <color name="primary_text_material_light">#deffffff</color>
+</resources>

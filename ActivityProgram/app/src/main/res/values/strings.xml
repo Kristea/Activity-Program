@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">UEA Activity Program</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activities_calendar">UEA Activities</string>
+    <string name="title_activity_home_screen">Home</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_user_calendar">Your Calendar</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="notificationSet">Notification settings</string>
+    <string name="synch">Calendar synchronisation interval</string>
+    <string name="school">School program</string>
+    <string name="school2">Select desired school to view events for</string>
+
+    <string name="sound">Sound</string>
+    <string name="vibration">Vibration</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="emptyEmail" />
+    <string name="reset">Reset to default</string>
+
+
+    <string name="no_acct">Do not have an account?</string>
+    <string name="disclaimer">An app created by Jamdroid Group for UEA Software Engineering 2 coursework. @Copyright UEA  and Jamdroid</string>
+    <string name="title_activity_notification_settings">NotificationSettings</string>
+    <string name="title_activity_base_calendar">BaseCalendar</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="select">Select</string>
+
+
+    <string name="action_today">Today</string>
+    <string name="action_day_view">Day view</string>
+    <string name="action_three_day_view">3 day view</string>
+    <string name="action_week_view">Week view</string>
+    <string name="title_activity_basic">Basic Example</string>
+    <string name="title_activity_asynchronous">Asynchronous Events</string>
+    <string name="async_error">Could not download events from the internet</string>
+    <string name ="notif">Change the notifyService settings for the app</string>
+
+    <string name="date_picker_dialog">Pick an open day date.</string>
+    <string-array name="schools">
+        <item>Computing</item>
+        <item>Business</item>
+        <item>Arts</item>
+    </string-array>
+
+    <string-array name="intervals">
+        <item>30 min</item>
+        <item>1 hrs</item>
+        <item>2 hr</item>
+        <item>5 hrs</item>
+        <item>Day</item>
+        <item>Weekly</item>
+    </string-array>
+
+
+</resources>

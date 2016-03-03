@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uk.ac.uea.activityprogram" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="com.android.android.permission.SET_ALARM" />
+
+    <service android:name=".NotifyService" android:enabled="true">
+        <intent-filter>
+            <action android:name="NOTIFICATION_SERVICE" /></intent-filter>
+    </service>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Controllers.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Controllers.ActivitiesCalendar"
+            android:label="@string/title_activity_activities_calendar" >
+        </activity>
+        <activity
+            android:name=".Controllers.HomeScreen"
+            android:label="@string/title_activity_home_screen" >
+        </activity>
+        <activity
+            android:name=".Controllers.Settings_Activity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".Controllers.UserCalendar"
+            android:label="@string/title_activity_user_calendar" >
+        </activity>
+        <activity
+            android:name=".Controllers.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".Controllers.Register"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".Controllers.BaseCalendar"
+            android:label="@string/title_activity_base_calendar" >
+        </activity>
+
+        <receiver android:name=".Models.NotifyService"/>
+    </application>
+
+</manifest>

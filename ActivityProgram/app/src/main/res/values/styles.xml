@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!-- set toolbar text central and add colour-->
+    </style>
+
+
+    <style name="NewThemeUea" parent="@style/AppTheme" >
+        <item name="colorPrimary">@color/primary_material_light_2</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="android:colorPrimary">@color/primary_material_light</item>
+        <item name="android:colorAccent">@color/accent_material_light</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark_material_light</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:actionBarTheme">@color/white</item>
+        <item name="android:actionBarStyle">@style/NewThemeUea.ActionBar</item>
+    </style>
+
+    <style name="NewThemeUea.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/black</item>
+        <item name="android:titleTextStyle">@style/NewThemeUea.ActionBar.Text</item>
+    </style>
+    <style name="NewThemeUea.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+
+
+
+</resources>
